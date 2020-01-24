@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="ISO-8859-1">
+
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		
+
+	<title>Access Denied</title>
+</head>
+
+<body>
+
+<span class="d-block p-2 bg-danger text-white text-center">Access Denied <br>
+You don't have the required role to access this page</span>
+
+<br>
+
+<a th:href="@{/}" class="d-block p-2 bg-warning text-white text-center">Back to Home Page</a>
+
+</body>
+</html>
